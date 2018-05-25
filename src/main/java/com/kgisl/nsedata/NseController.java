@@ -38,13 +38,13 @@ public class NseController {
 
     public void get() {
 
-        System.out.println("Begin /GET request!");
+        //System.out.println("Begin /GET request!");
 
-        SimpleClientHttpRequestFactory clientHttpRequestFactory = new SimpleClientHttpRequestFactory();
+        //SimpleClientHttpRequestFactory clientHttpRequestFactory = new SimpleClientHttpRequestFactory();
 
-        Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("10.100.1.124", 3128));
+        //Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("10.100.1.124", 3128));
 
-        clientHttpRequestFactory.setProxy(proxy);
+        //clientHttpRequestFactory.setProxy(proxy);
 
         RestTemplate restTemplate = new RestTemplate();
 
